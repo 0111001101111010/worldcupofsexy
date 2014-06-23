@@ -1,0 +1,26 @@
+{
+  "name": "worldcupofsexy",
+  "version": "0.0.0",
+  "description": "worldcupofsexy_webapp",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shriyanevatia/worldcupofsexy.git"
+  },
+  "author": "shriya-nevatia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shriyanevatia/worldcupofsexy/issues"
+  },
+  "homepage": "https://github.com/shriyanevatia/worldcupofsexy",
+  "dependencies": {
+    "logfmt": "^1.1.2",
+    "express": "^4.4.4"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
