@@ -38,4 +38,7 @@ for(i = 0; i <= NUM_PLAYERS; i++)
     //initially set to an empty string
     var status = "";
     worldcupdata[i].winloss = status;
+
+    //initialize each player's score to 0
+    worldcupdata[i].score = 0;
 }
