@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Samba';
+    src: url('Samba.ttf') format('truetype');
+}
+
+body {
+	color: #2c3e50;
+	margin: 0 auto;
+}
+
+.logo {
+
+	margin: 0 auto;
+}
+
+.cards {
+	display: inline;
+	height: 450px;
+	clear:both;
+	background-color: #000000;
+}
+
+.leftcard {
+	float:left;
+	margin-left: 50px;
+}
+
+.rightcard {
+	float:right;
+	margin-right: 50px;
+}
+
+h1 {
+	color: #2c3e50;
+	font-family: Samba, Sans-serif;
+}
+
+h3 {
+	color: #2c3e50;
+	font-family: Helvetica, Sans-serif;
+}
+
+.round {
+	width: 250px;
+	font-family: Helvetica, Sans-serif;
+	color: #ecf0f1;
+	background-color: #d35400;
+}
+
+a {
+	text-decoration: none;
+}
+
+.card {
+    height:420px;
+    width:280px;
+    border-radius: 20;
+    border-style: solid;
+    border-width: 5px;
+    background: #ecf0f1;
+    border-color: #314559;
+    z-index:90;
+}
+
+.image {
+    margin:25px;
+    height:280px;
+    width:220px;
+    z-index:100;
+    border-radius: 20;
+    background-image:url("http://img.fifa.com/images/fwc/2014/players/prt-3/201200.png");
+}
+
+.name, .country {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size:18px;
+}
+
+.country {
+    vertical-align: top;
+    width: 60%;
+}
