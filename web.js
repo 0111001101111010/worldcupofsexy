@@ -7,9 +7,19 @@ app.use(logfmt.requestLogger());
 
 app.get('/', function(req, res) {
   res.send('Hello World!');
+  
 });
 
 var port = Number(process.env.PORT || 5000);
 app.listen(port, function() {
   console.log("Listening on " + port);
 });
+
+var i; 
+
+for(i = 0; i <= 731; i++)
+{
+    var imgURL = "http://img.fifa.com/images/fwc/2014/players/prt-3/" + worldcupdata.idplayer ".png";
+    worldcupdata[imgURL] = imgURL;
+
+}
