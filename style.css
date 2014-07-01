@@ -4,51 +4,73 @@
 }
 
 body {
-	color: #2c3e50;
+	width:800px;
+	color: #317d00;
 	margin: 0 auto;
-}
-
-.logo {
-
-	margin: 0 auto;
-}
-
-.cards {
-	display: inline;
-	height: 450px;
-	clear:both;
-	background-color: #000000;
-}
-
-.leftcard {
-	float:left;
-	margin-left: 50px;
-}
-
-.rightcard {
-	float:right;
-	margin-right: 50px;
 }
 
 h1 {
-	color: #2c3e50;
+	font-size: 48px;
+	color:#ffffff;
+	font-family: Samba, Sans-serif;
+}
+
+h2 {
+	font-size: 32px;
+	color:#ffffff;
 	font-family: Samba, Sans-serif;
 }
 
 h3 {
-	color: #2c3e50;
-	font-family: Helvetica, Sans-serif;
+	font-size: 32px;
+	color: #154b00;
+	font-family: Samba, Sans-serif;
 }
 
-.round {
-	width: 250px;
-	font-family: Helvetica, Sans-serif;
-	color: #ecf0f1;
-	background-color: #d35400;
+h4 {
+	color: #154b00;
+	font-size: 24px;
+	font-family: Samba, Helvetica, Sans-serif;
 }
 
 a {
 	text-decoration: none;
+}
+
+.title {
+	clear:both;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #f99d1c;
+	width: 800px;
+}
+
+.question {
+	margin: 0 25% 0 25%;
+	text-align: center;
+	clear:both;
+}
+
+.cards {
+	height: 450px;
+	width: 600;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.round {
+	text-align: center;
+	font-size: 24px;
+	font-family: Samba, Helvetica, Sans-serif;
+	color: #ffffff;
+	background-color: #5f9c00;
+	clear: both;
+}
+
+.share {
+	margin: 0 25% 0 25%;
+	text-align: center;
+	clear:both;
 }
 
 .card {
@@ -81,4 +103,8 @@ a {
 .country {
     vertical-align: top;
     width: 60%;
+}
+
+.people {
+	font-family: Helvetica, Sans-serif;
 }
