@@ -23,11 +23,8 @@ app.listen(port, function() {
   console.log("Listening on " + port);
 });
 
-var i; 
-var NUM_PLAYERS = 731;
 
-
-for(i = 0; i <= NUM_PLAYERS; i++)
+for(i in worldcupdata)
 {
     //get all world cup player images by their id in the JSON data and add the
     //image URL as an extra field in each player's JSON
