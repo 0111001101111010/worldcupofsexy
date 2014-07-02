@@ -2,7 +2,7 @@ var worldcupdata;
 var NUM_PLAYERS = 731;
 
 //get world cup players JSON data from file and parse into object
-$.getJSON('worldcup.json', function(worldcupdata) {
+$.getJSON('/data/worldcup.json', function(worldcupdata) {
     console.log(worldcupdata);
 })
 
