@@ -1,4 +1,4 @@
-worldcupofsexy
+World Cup of Sexy
 ==============
 
 Who's the hottest player in the World Cup 2014? YOU DECIDE! 
