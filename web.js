@@ -39,3 +39,9 @@ for(i in worldcupdata)
     //initialize each player's score to 0
     worldcupdata[i].score = 0;
 }
+
+//select random player out of all the players
+function randomIntFromInterval(min, max)
+{
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
