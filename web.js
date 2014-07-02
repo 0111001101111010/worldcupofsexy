@@ -7,7 +7,6 @@ app.use(logfmt.requestLogger());
 
 app.get('/', function(req, res) {
   res.send('index.html');
-  
 });
 
 var port = parseInt(process.env.PORT, 10) || 5000;
@@ -39,3 +38,5 @@ for(i in worldcupdata)
     //initialize each player's score to 0
     worldcupdata[i].score = 0;
 }
+
+
