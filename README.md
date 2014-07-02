@@ -7,16 +7,16 @@ You'll start off with 32 randomly selected players (from over 700 on the FIFA si
 
 ---------------
 
-This is still in development and I would love it if you could help! 
-
-Here are the next steps: 
-1) generate 32 random numbers in range 0 to 731
-2) get 32 players from those random numbers (by ID)
-3) display player image, name, country, and flag inside the "cards" 
-4) allow user to click through them tournament style and (in JSON) keep track of who wins and loses each round 
-5) change round number to fit tournament round (below "cards" on the screen) 
-6) let user share final winning player image & name w/ website
-7) let user play another round with 32 other random players
+This is still in development and I would love it if you could help!   
+   
+Here are the next steps:   
+1) generate 32 random numbers in range 0 to 731  
+2) get 32 players from those random numbers (by ID)  
+3) display player image, name, country, and flag inside the "cards"    
+4) allow user to click through them tournament style and (in JSON) keep track of who wins and loses each round    
+5) change round number to fit tournament round (below "cards" on the screen)   
+6) let user share final winning player image & name w/ website    
+7) let user play another round with 32 other random players   
 
 ---------------
 
