@@ -18,6 +18,7 @@ Here are the next steps:
 6) let user share final winning player image & name w/ website    
 7) let user play another round with 32 other random players   
 
----------------
+8) store players in database so there can be global ranking (players accrue 1 point for winning in round 1 or 2, 2 points for winning in quarterfinals or semifinals, and 3 points for winning overall. therefore winner of one bracket will get a total of 1 + 1 + 2 + 2 + 3 = 9 points)
+
 
 Visit it at http://fast-dawn-1678.herokuapp.com/
