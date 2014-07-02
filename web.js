@@ -1,16 +1,3 @@
-// web.js
-var express = require("express");
-var logfmt = require("logfmt");
-var app = express();
-
-app.use(logfmt.requestLogger());
-
-app.get('/', function(req, res) {
-  res.send('index.html');
-});
-
-var port = parseInt(process.env.PORT, 10) || 5000;
-
 var worldcupdata;
 var NUM_PLAYERS = 731;
 
@@ -18,10 +5,6 @@ var NUM_PLAYERS = 731;
 $.getJSON('worldcup.json', function(worldcupdata) {
     console.log(worldcupdata);
 })
-
-app.listen(port, function() {
-  console.log("Listening on " + port);
-});
 
 
 for(i in worldcupdata)
@@ -47,7 +30,7 @@ function randomIntFromInterval(min, max)
 }
 
 //generate list of randomly selected players
-function getPlayers() 
+function getPlayers()
 {
     var whichPlayers = new Array();
     for (i = 0; i <32; i++) {
