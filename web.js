@@ -12,6 +12,7 @@ app.get('/', function(req, res) {
 var port = parseInt(process.env.PORT, 10) || 5000;
 
 var worldcupdata;
+var NUM_PLAYERS = 731;
 
 //get world cup players JSON data from file and parse into object
 $.getJSON('worldcup.json', function(worldcupdata) {
@@ -39,4 +40,18 @@ for(i in worldcupdata)
     worldcupdata[i].score = 0;
 }
 
+//select random player out of all the players
+function randomIntFromInterval(min, max)
+{
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
 
+//generate list of randomly selected players
+function getPlayers() 
+{
+    var whichPlayers = new Array();
+    for (i = 0; i <32; i++) {
+        whichPlayers[i] = randomIntFromInterval(0, NUM_PLAYERS);
+    }
+    return whichPlayers;
+}
